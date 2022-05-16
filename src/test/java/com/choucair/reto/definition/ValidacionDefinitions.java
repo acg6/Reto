@@ -31,32 +31,32 @@ public class ValidacionDefinitions {
 		validacionSteps.seleccionarOpcionMenu();
 	}
 	
-	@When("acceder a la pestaña contactenos")
-	public void accederPestañaContacto() {
-		validacionSteps.accederPestañaContacto();
+	@When("acceder a la pestana contactenos")
+	public void accederPestanaContacto() {
+		validacionSteps.accederPestanaContacto();
 	}
 	
-	@When("acceder a la pestaña servicios")
-	public void accederPestañaServicios() {
-		validacionSteps.accederPestañaServicios();
+	@When("acceder a la pestana servicios")
+	public void accederPestanaServicios() {
+		validacionSteps.accederPestanaServicios();
 	}
 	
-	@When("acceder a la pestaña industrias")
-	public void accederPestañaIndustrias() {
-		validacionSteps.accederPestañaIndustrias();
+	@When("acceder a la pestana industrias")
+	public void accederPestanaIndustrias() {
+		validacionSteps.accederPestanaIndustrias();
 	}
 	
-	@When("acceder a la pestaña formacion")
-	public void accederPestañaFormacion() {
-		validacionSteps.accederPestañaFormacion();
+	@When("acceder a la pestana formacion")
+	public void accederPesta�aFormacion() {
+		validacionSteps.accederPestanaFormacion();
 	}
 	
-	@When("acceder a la pestaña comunidad")
+	@When("acceder a la pestana comunidad")
 	public void accederFormularioComunidad() {
 		validacionSteps.accederFormularioComunidad();
 	}
 	
-	@When("acceder a la pestaña empleos")
+	@When("acceder a la pestana empleos")
 	public void accederFormularioNosotros() {
 		validacionSteps.accederFormularioEmpleos();
 	}

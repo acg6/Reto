@@ -28,28 +28,28 @@ public class ValidacionSteps {
 	}
 	
 	@Step
-	public void accederPestañaContacto() {
+	public void accederPestanaContacto() {
 		accionesWeb.bordearElemento(ValidacionPage.getStrOpcionElegida());
 		accionesWeb.clickBoton(ValidacionPage.getStrOpcionElegida());
 		accionesWeb.tomarEvidencia();
 	}
 	
 	@Step
-	public void accederPestañaServicios() {
+	public void accederPestanaServicios() {
 		accionesWeb.bordearElemento(ValidacionPage.getMenuServicios());
 		accionesWeb.clickBoton(ValidacionPage.getMenuServicios());
 		accionesWeb.tomarEvidencia();
 	}
 	
 	@Step
-	public void accederPestañaIndustrias() {
+	public void accederPestanaIndustrias() {
 		accionesWeb.bordearElemento(ValidacionPage.getMenuIndustrias());
 		accionesWeb.clickBoton(ValidacionPage.getMenuIndustrias());
 		accionesWeb.tomarEvidencia();
 	}
 	
 	@Step
-	public void accederPestañaFormacion() {
+	public void accederPestanaFormacion() {
 		accionesWeb.bordearElemento(ValidacionPage.getMeneFormacion());
 		accionesWeb.clickBoton(ValidacionPage.getMeneFormacion());
 		accionesWeb.tomarEvidencia();

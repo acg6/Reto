@@ -19,12 +19,12 @@ Feature: Validaciones.
 @validacionMenus
 	Scenario: ROBOT validar que cada unas de las opciones del menu se puedan acceder
 		 Given ingreso al portal choucair
-		 When acceder a la pestaña servicios
-		 And acceder a la pestaña industrias
-		 And acceder a la pestaña formacion
-		 And acceder a la pestaña comunidad
-		 And acceder a la pestaña empleos
-		 When acceder a la pestaña contactenos
+		 When acceder a la pestana servicios
+		 And acceder a la pestana industrias
+		 And acceder a la pestana formacion
+		 And acceder a la pestana comunidad
+		 And acceder a la pestana empleos
+		 When acceder a la pestana contactenos
 		       
 		 
 				    
