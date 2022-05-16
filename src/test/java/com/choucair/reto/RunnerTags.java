@@ -37,7 +37,7 @@ public class RunnerTags {
 	}
 
 	@RunWith(CucumberWithSerenity.class)
-		@CucumberOptions (features = "src/test/resources/features/", tags = "@EnvioSolicitudFormulario")
+		@CucumberOptions (features = "src/test/resources/features/", tags = "@validacionMenus")
 
 	public class CRunnerPedido {
 

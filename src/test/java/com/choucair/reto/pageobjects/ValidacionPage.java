@@ -22,11 +22,38 @@ public class ValidacionPage extends PageObject {
 	private static By strMENSAJE = By.xpath("//textarea[@id=\"form-field-message\"]");
 	private static By btnEnviar = By.xpath("//*[@id=\"content\"]/div/div/div/div/div/section[3]/div/div/div/div/div/div/div/form/div/div[8]/button");
 	private static By lblMensaje = By.xpath("//*[@id=\"content\"]/div/div/div/div/div/section[3]/div/div/div/div/div/div/div/form/div[2]/text()");
+	private static By MenuServicios = By.xpath("//li[@id=\"menu-item-6142\"]");
+	private static By MenuIndustrias = By.xpath("//li[@id=\"menu-item-870\"]");
+	private static By MenuFormacion = By.xpath("//li[@id=\"menu-item-1876\"]");
+	private static By MenuComunidad = By.xpath("//li[@id=\"menu-item-7979\"]");
+	private static By MenuEmpleos = By.xpath("//li[@id=\"menu-item-7979\"]");
+
 
 
 	public static By getStrOpcionElegida() {
 		return strOPCIONMENUNELEGIDA;
 	}
+	
+	public static By getMenuServicios() {
+		return MenuServicios;
+	}
+	
+	public static By getMenuIndustrias() {
+		return MenuIndustrias;
+	}
+	
+	public static By getMenuComunidad() {
+		return MenuComunidad;
+	}
+	
+	public static By getMeneFormacion() {
+		return MenuFormacion;
+	}
+	
+	public static By getMenuEmpleo() {
+		return MenuEmpleos;
+	}
+	
 	
 	public static By getStrInputNombre() {
 		return strINPUTNOMBRE;
